@@ -42,7 +42,7 @@ ros2 launch ntrip_client ntrip_client_launch.py host:=rtk2go.com mountpoint:=MyR
 ```
 
 Optional launch parameters:
-- **namespace**: Prepend this namespace to you node and topic names. Default: /
+- **namespace**: Prepend this namespace to your node and topic names. Default: /
 - **host**: Hostname or IP address of the NTRIP server to connect to.
 - **port**: Port to connect to on the server. Default: `2101`
 - **mountpoint**: Mountpoint to connect to on the NTRIP server.
